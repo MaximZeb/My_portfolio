@@ -1,0 +1,25 @@
+header {
+    grid-row: 4;
+    .header__about {
+        font-family: Jost;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 142%;
+        text-shadow: 0px 0px 76px rgba(188, 251, 195, 0.3);
+        color: #82F9A1;
+    }
+    .header__description {
+        font-family: Jost;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 180%;
+        color: #ECF8FF;
+        a {
+            color: #1DA1F2;
+            text-decoration:underline;
+            padding: 4px;
+        }
+    }
+}

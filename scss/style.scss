@@ -1,0 +1,20 @@
+@import './zeroing.scss';
+@import './body.scss';
+@import './nav.scss';
+@import './header.scss';
+
+.wrapper {
+    display: grid;
+    grid-template-rows: 60px 33px 102px 626px 1fr 1fr 1fr 1fr;
+    max-width: 768px;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+@media only screen and (max-width:430px) {
+   .wrapper{
+       max-width: 430px;
+       grid-template-rows: 20px 50px 102px 626px 1fr 1fr 1fr 1fr;
+   } 
+}
+
