@@ -22,7 +22,7 @@ nav {
     font-weight: bold;
     font-size: 18px;
     line-height: 26px; }
-  nav .skill {
+  nav .wrapper__skill {
     grid-column: 6;
     cursor: pointer; }
   nav .portfolio {
@@ -48,6 +48,9 @@ nav {
     -webkit-box-shadow: 0px 0px 76px rgba(188, 251, 195, 0.3);
             box-shadow: 0px 0px 76px rgba(188, 251, 195, 0.3); }
 
+@media only screen and (max-width: 770px) {
+  nav {
+    grid-template-columns: 12px 23px 21px 150px auto 53px 32px 61px 35px 43px 22px 80px 5px; } }
 @media only screen and (min-width: 430px) {
   nav .mobil_burger {
     display: none; } }
@@ -58,7 +61,7 @@ nav {
       display: block;
       grid-column: 6;
       font-size: 50px; }
-    nav .skill {
+    nav .wrapper__skill {
       display: none; }
     nav .portfolio {
       display: none; }

@@ -1,0 +1,31 @@
+.header__skill {
+  display: grid;
+  grid-row: 5;
+  grid-template-columns: 5px 30px 15px 30px 15px 30px 5px;
+  grid-template-rows: 40px 20px 30px; }
+  .header__skill h2 {
+    grid-row: 1;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    color: #ECF8FF; }
+  .header__skill .header__js {
+    grid-row: 3;
+    grid-column: 2;
+    cursor: pointer; }
+  .header__skill .header__react {
+    cursor: pointer;
+    grid-row: 3;
+    grid-column: 4; }
+    .header__skill .header__react img {
+      width: 30px;
+      height: 30px; }
+  .header__skill .header__redux {
+    cursor: pointer;
+    grid-row: 3;
+    grid-column: 6; }
+    .header__skill .header__redux img {
+      width: 30px;
+      height: 30px; }
