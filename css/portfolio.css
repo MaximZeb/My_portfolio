@@ -1,6 +1,13 @@
 .portfolio {
   display: grid;
-  grid-row: 6; }
+  grid-row: 6;
+  grid-template-rows: 30px 10px 1fr;
+  grid-template-columns: 1fr 20px 1fr 20px 1fr;
+  justify-items: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
   .portfolio h2 {
     font-family: Jost;
     font-style: normal;
@@ -8,3 +15,21 @@
     font-size: 24px;
     line-height: 35px;
     color: #ECF8FF; }
+  .portfolio .portfolio__elma {
+    grid-row: 3;
+    grid-column: 1; }
+    .portfolio .portfolio__elma img {
+      width: 90%;
+      height: 90%; }
+  .portfolio .portfolio__figmagrid {
+    grid-row: 3;
+    grid-column: 3; }
+    .portfolio .portfolio__figmagrid img {
+      width: 100%;
+      height: 100%; }
+  .portfolio .portfolio__figmaflex {
+    grid-row: 3;
+    grid-column: 5; }
+    .portfolio .portfolio__figmaflex img {
+      width: 90%;
+      height: 90%; }
