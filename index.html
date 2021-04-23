@@ -9,8 +9,6 @@
 	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
 	<!-- style -->
 	<link rel="stylesheet" href="css/style.css">
-	<!-- javascript -->
-	<script src="javascript/sript.js"></script>watch
 </head>
 <body>
 <div class="body">
@@ -28,10 +26,20 @@
 			<div class="header__description">Я специализируюсь на создании мобильных и веб-приложениях. Свой код выкладываю в <a href="https://github.com/MaximZeb">Github</a>.</div>
 		</header>
 		
-
+		<!-- <div id="like_button_container"></div> -->
 	</div>
 </div>
 
 	
 </body>
+<!-- Загрузим React. -->
+  <!-- Примечание: при деплое на продакшен замените «development.js» на «production.min.js». -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Загрузим наш React-компонент. -->
+  <script src="like_button.js"></script>
+
+  <!-- javascript -->
+	<script src="javascript/sript.js"></script>
 </html>
