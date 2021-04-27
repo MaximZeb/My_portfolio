@@ -1,0 +1,58 @@
+.chat_form {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width:100%;
+    height:429px;
+    background: #1C2C35;
+    .form {
+        width: auto;
+        height: 223px;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        .form_header {
+            font-family: Jost;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 48px;
+            color: #B0FBBC;
+        }
+        .desc {
+            margin-top:23px;
+            color: white;
+            font-family: Jost;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 27px;
+            text-align: center;
+            width:463px;
+            height:54px;
+        }
+        .button {
+            display: grid;
+            margin-top: 26px;
+            justify-items: center;
+            align-items: center;
+            border-radius: 6px;
+            background: #83F9A2;
+            width:112px;
+            height:38px;
+            color: #111A20;
+            font-family: Jost;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 26px;
+            -webkit-border-radius: 6px;
+            -moz-border-radius: 6px;
+            -ms-border-radius: 6px;
+            -o-border-radius: 6px;
+            img {
+                display: inline;
+            }
+            
+}
+    }
+}
